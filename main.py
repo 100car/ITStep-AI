@@ -69,3 +69,4 @@ result = result.astype(np.uint8)
 print(result)
 
 print(result == result_1)
+

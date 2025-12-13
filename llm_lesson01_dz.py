@@ -63,3 +63,4 @@ while True:
     except Exception as e:
         print("Помилка при запиті до моделі:", e)
         break
+

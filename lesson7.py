@@ -30,9 +30,10 @@ api_key = st.secrets.get('GEMINI_API_KEY')
 # Велика мовна модель(llm)
 
 llm = ChatGoogleGenerativeAI(
-    model='gemini-2.0-flash',  # назва моделі
+    model='gemini-2.5-flash',  # назва моделі
     google_api_key=api_key,    # ваша API
 )
+print(api_key)
 
 embeddings = GoogleGenerativeAIEmbeddings(
     model="models/text-embedding-004",  # назва моделі
